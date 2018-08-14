@@ -105,7 +105,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="col-md-6">
             <div class="widget no-border m-0">
               <ul class="list-inline xs-text-center text-white mt-5">
-                <li class="m-0 pl-10 pr-10"> <a href="#" class="text-white"><i class="fa fa-phone text-theme-colored"></i><a href="tel:+34600651375">+34 600-651-375</a></a> </li>
+                <li class="m-0 pl-10 pr-10"> <a href="#" class="text-white"><i class="fa fa-whatsapp text-theme-colored"></i><a href="https://wa.me/34600651375">+34 600-651-375</a></a> </li>
                 <li class="m-0 pl-10 pr-10"> <i class="fa fa-clock-o text-theme-colored"></i> Lun-Vie 8:00 a 21:30 </li>
                 <li class="m-0 pl-10 pr-10"> <a href="#" class="text-white"><i class="fa fa-envelope-o text-theme-colored"></i> info@reinaldoribeiro.com</a> </li>
               </ul>
@@ -133,14 +133,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <img src="images/logo-wide.png" alt="">
             </a>
             <ul class="menuzord-menu onepage-nav">
-              <li class="active"><a href="index.html">Inicio</a></li>
-              <li><a href="#about">Nuestra Escuela</a></li>
               <li><a href="#class">Clases</a></li>
               <li><a href="#trainer">Entrenadores</a></li>
               <li><a href="#gallery">Galerias</a></li>
               <li><a href="horarios.html">Horarios</a></li>
+              <li><a href="academia-bjj-barcelona.html">Contacto</a></li>
               <li><a href="#blog">Noticias</a></li>
-            </ul>
+           </ul>
           </nav>
         </div>
       </div>
@@ -1143,8 +1142,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-md-6 bg-theme-colored p-50">
               <!-- Appilication Form Start-->
 
-                <a href="academia-bjj-barcelona.html"><h2 class="text-white text-uppercase"> Contáctanos</h2></a>
+      <form id="reservation_form" name="reservation_form" class="reservation-form mt-20" method="post" action="includes/clase-prueba.php">
+                <h2 class="text-white"> Inscríbete a una clase de prueba</h2>
+                <h4 class="text-white mb-20">BJJ & Grappling</h4>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group mb-20">
+                      <input placeholder="Nombre" type="text" id="reservation_name" name="reservation_name" required="" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group mb-20">
+                      <input placeholder="Telefono" type="text" id="reservation_phone" name="reservation_phone" class="form-control" required="">
+                    </div>
+                  </div>
 
+                    <div class="form-group">
+                      <textarea placeholder="Mensaje" rows="3" class="form-control required" name="form_message" id="form_message" aria-required="true"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <div class="form-group mb-0 mt-10">
+                      <input name="form_botcheck" class="form-control" type="hidden" value="">
+                      <button type="submit" class="btn btn-default" data-loading-text="Espera...">Enviar Mensaje</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
               <!-- Application Form End-->
 
               <!-- Application Form Validation Start-->
