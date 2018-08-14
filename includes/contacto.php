@@ -13,24 +13,27 @@ $mail->SMTPAuth = true;                               // Enable SMTP authenticat
 $mail->Username = 'contacto@reinaldoribeiroteam.com';                 // SMTP username
 $mail->Password = '|7!8@}Ma0S7';                           // SMTP password
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 465;                                    // TCP port to connect to
+$mail->Port = 465;                                  // TCP port to connect to
 
 $message = "";
 $status = "false";
 
 if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
-    if( $_POST['form_email'] != '' AND $_POST['form_message'] != '' ) {
+    if( $_POST['form_name'] != '' AND $_POST['form_email'] != '' ) {
 
-        $name = 'Quick Contact';
+        $name = $_POST['form_name'];
         $email = $_POST['form_email'];
         $message = $_POST['form_message'];
 
-        $subject = isset($subject) ? $subject : 'Solicitud Clase de Prueba | RRTEAM.com';
+        $subject = isset($subject) ? $subject : 'New Message | Appointment Form';
+        $phone = isset($_POST['form_phone']) ? $_POST['form_phone'] : '';
+
+        $appontment_date = isset($_POST['form_appontment_date']) ? $_POST['form_appontment_date'] : '';
 
         $botcheck = $_POST['form_botcheck'];
 
-        $toemail = 'contacto@reinaldoribeiroteam.com'; // Your Email Address
-        $toname = 'RRTeam Barcelona'; // Your Name
+        $toemail = 'spam.thememascot@gmail.com'; // Your Email Address
+        $toname = 'ThemeMascot'; // Your Name
 
         if( $botcheck == '' ) {
 
@@ -39,21 +42,24 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
             $mail->AddAddress( $toemail , $toname );
             $mail->Subject = $subject;
 
+            $name = isset($name) ? "Name: $name<br><br>" : '';
             $email = isset($email) ? "Email: $email<br><br>" : '';
-            $message = isset($message) ? "Mensaje: $message<br><br>" : '';
+            $phone = isset($phone) ? "Phone: $phone<br><br>" : '';
+            $appontment_date = isset($appontment_date) ? "Appoinment Date: $appontment_date<br><br>" : '';
+            $message = isset($message) ? "Message: $message<br><br>" : '';
 
-            $referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>Solicitud Clase de Prueba RRTEAM: ' . $_SERVER['HTTP_REFERER'] : '';
+            $referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>This Form was submitted from: ' . $_SERVER['HTTP_REFERER'] : '';
 
-            $body = "$email $message $referrer";
+            $body = "$name $email $phone $appontment_date $message $referrer";
 
             $mail->MsgHTML( $body );
             $sendEmail = $mail->Send();
 
             if( $sendEmail == true ):
-                $message = 'Hemos recibido tu mensaje y nos pondremos en contacto contigo en breve.';
+                $message = 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.';
                 $status = "true";
             else:
-                $message = 'No pudimos enviar tu correo por un error en el formulario.<br /><br /><strong>Motivo de error:</strong><br />' . $mail->ErrorInfo . '';
+                $message = 'Email <strong>could not</strong> be sent due to some Unexpected Error. Please Try Again later.<br /><br /><strong>Reason:</strong><br />' . $mail->ErrorInfo . '';
                 $status = "false";
             endif;
         } else {
@@ -61,11 +67,11 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
             $status = "false";
         }
     } else {
-        $message = 'Por favor rellena todos los campos e intentalo otra vez.';
+        $message = 'Please <strong>Fill up</strong> all the Fields and Try Again.';
         $status = "false";
     }
 } else {
-    $message = 'Ha ocurrido un error por favor intentalo otra vez.';
+    $message = 'An <strong>unexpected error</strong> occured. Please Try Again later.';
     $status = "false";
 }
 
