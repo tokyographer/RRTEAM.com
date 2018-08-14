@@ -13,11 +13,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <meta name="description" content="Academia de Jiu-jitsu Brasileño y Grappling en Barcelona dirigida por Reinaldo Ribeiro. Clases de artes marciales y Jiu-Jitsu en Barcelona, Vic y Reus." />
-<meta name="keywords" content="martialarts,karate,training" />
-<meta name="author" content="ThemeMascot" />
+<meta name="keywords" content="" />
+<meta name="author" content="Reinaldo Ribeiro" />
 
 <!-- Page Title -->
-<title>Horarios Reinaldo Ribeiro TEAM - Academia de Jiu-jitsu Brasilero & Judo Barcelona</title>
+<title>Academia BJJ Barcelona - Reinaldo Ribeiro Team</title>
 
 <!-- Favicon and Touch Icons -->
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
@@ -56,6 +56,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
 <!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
 
+<!-- Revolution Slider 5.x CSS settings -->
+<link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
+<link  href="js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>
+<link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
+
 <!-- CSS | Theme Color -->
 <link href="css/colors/theme-skin-yellow.css" rel="stylesheet" type="text/css">
 
@@ -66,6 +71,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- JS | jquery plugin collection for this theme -->
 <script src="js/jquery-plugin-collection.js"></script>
 
+<!-- Revolution Slider 5.x SCRIPTS -->
+<script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+<script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -74,11 +83,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <![endif]-->
 </head>
 <body class="">
-    <!-- Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8QTM4"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<div id="wrapper" class="clearfix">
+
+<div id="wrapper">
   <!-- preloader -->
   <div id="preloader">
     <div id="spinner">
@@ -87,7 +97,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
   </div>
 
- <!-- Header -->
+  <!-- Header -->
   <header id="header" class="header">
     <div class="header-top bg-blue-111 sm-text-center p-0">
       <div class="container">
@@ -120,15 +130,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
           <nav id="menuzord-right" class="menuzord">
             <a class="menuzord-brand pull-left flip" href="javascript:void(0)">
-              <img src="images/logo-wide.png" alt="">
+             <img src="images/logo-wide.png" alt="">
             </a>
             <ul class="menuzord-menu onepage-nav">
-              <li class="active"><a href="#home">Inicio</a></li>
               <li><a href="#about">Nuestra Escuela</a></li>
               <li><a href="#class">Clases</a></li>
               <li><a href="#trainer">Entrenadores</a></li>
               <li><a href="#gallery">Galerias</a></li>
-              <li><a href="page-timetable.html">Horarios</a></li>
+              <li><a href="horarios.html">Horarios</a></li>
               <li><a href="#blog">Noticias</a></li>
             </ul>
           </nav>
@@ -139,30 +148,141 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- Start main-content -->
   <div class="main-content">
-    <!-- Section: inner-header -->
-    <section class="inner-header divider parallax layer-overlay overlay-white-8" data-bg-img="http://placehold.it/2372x1631">
-      <div class="container pt-60 pb-60">
-        <!-- Section Content -->
-        <div class="section-content">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <h2 class="title">Horarios</h2>
 
+    <!-- Section: inner-header -->
+    <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="http://placehold.it/1920x942">
+      <div class="container pt-100 pb-50">
+        <!-- Section Content -->
+        <div class="section-content pt-100">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="title text-white">Academia BJJ Barcelona</h3>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Section: Timetable -->
-    <section>
-      <div class="container">
-        <div class="section-content">
-          <div class="row">
-            <div class="col-md-12">
+    <!-- Divider: Contact -->
+    <section class="divider">
+      <div class="container pt-0">
+        <div class="row mb-60 bg-deep">
+          <div class="col-sm-12 col-md-4">
+            <div class="contact-info text-center pt-60 pb-60 border-right">
+              <i class="fa fa-phone font-36 mb-10 text-theme-colored"></i>
+              <h4>Contactanos</h4>
+              <h6 class="text-gray">Teléfono: +34 600-651-375</h6>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="contact-info text-center  pt-60 pb-60 border-right">
+              <i class="fa fa-map-marker font-36 mb-10 text-theme-colored"></i>
+              <h4>Dirección</h4>
+              <h6 class="text-gray">Carrer de Rogent, 33,  Barcelona</h6>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="contact-info text-center  pt-60 pb-60">
+              <i class="fa fa-envelope font-36 mb-10 text-theme-colored"></i>
+              <h4>Email</h4>
+              <h6 class="text-gray">info@reinaldoribeiroteam.com</h6>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-10">
+          <div class="col-md-5">
+          <h4 class="mt-0 mb-30 line-bottom">Nuestra ubicación</h4>
+          <!-- Google Map HTML Codes -->
+          <div
+            data-address="Carrer de Rogent, 33, Barcelona"
+            data-popupstring-id="#popupstring1"
+            class="map-canvas autoload-map"
+            data-mapstyle="style2"
+            data-height="400"
+            data-latlng="-37.817314,144.955431"
+            data-title="sample title"
+            data-zoom="12"
+            data-marker="images/map-icon-blue.png">
+          </div>
+          <div class="map-popupstring hidden" id="popupstring1">
+            <div class="text-center">
+              <h3>Academia BJJ Clot, Barcelona</h3>
+              <p>Carrer de Rogent, 33, Barcelona</p>
+            </div>
+          </div>
+          <!-- Google Map Javascript Codes -->
+          <script src="http://maps.google.com/maps/api/js?key=AIzaSyAYWE4mHmR9GyPsHSOVZrSCOOljk8DU9B4"></script>
+          <script src="js/google-map-init.js"></script>
+          </div>
+          <div class="col-md-7">
+            <h4 class="mt-0 mb-30 line-bottom">Contacto</h4>
+            <!-- Contact Form -->
+            <form id="contact_form" name="contact_form" class="" action="includes/sendmail.php" method="post">
 
-              <!-- === FC Calendar Starts === -->
-<iframe src="https://calendar.google.com/calendar/b/1/embed?showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=rrteambjj%40gmail.com&amp;color=%2329527A&amp;ctz=Europe%2FMadrid" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>          </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="form_name">Nombre <small>*</small></label>
+                    <input id="form_name" name="form_name" class="form-control" type="text" placeholder="" required="">
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="form_email">Email <small>*</small></label>
+                    <input id="form_email" name="form_email" class="form-control required email" type="email" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="form_name">Asunto <small>*</small></label>
+                    <input id="form_subject" name="form_subject" class="form-control required" type="text" placeholder="">
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="form_phone">Teléfono</label>
+                    <input id="form_phone" name="form_phone" class="form-control" type="text" placeholder="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form_name">Mensaje</label>
+                <textarea id="form_message" name="form_message" class="form-control required" rows="5" placeholder=""></textarea>
+              </div>
+              <div class="form-group">
+                <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="" />
+                <button type="submit" class="btn btn-dark btn-theme-colored btn-flat mr-5" data-loading-text="Please wait...">Enviar</button>
+              </div>
+            </form>
+
+            <!-- Contact Form Validation-->
+            <script type="text/javascript">
+              $("#contact_form").validate({
+                submitHandler: function(form) {
+                  var form_btn = $(form).find('button[type="submit"]');
+                  var form_result_div = '#form-result';
+                  $(form_result_div).remove();
+                  form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
+                  var form_btn_old_msg = form_btn.html();
+                  form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
+                  $(form).ajaxSubmit({
+                    dataType:  'json',
+                    success: function(data) {
+                      if( data.status == 'true' ) {
+                        $(form).find('.form-control').val('');
+                      }
+                      form_btn.prop('disabled', false).html(form_btn_old_msg);
+                      $(form_result_div).html(data.message).fadeIn('slow');
+                      setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
+                    }
+                  });
+                }
+              });
+            </script>
+          </div>
         </div>
       </div>
     </section>
@@ -186,12 +306,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div class="col-sm-6 col-md-3">
           <div class="widget dark">
-            <h5 class="widget-title line-bottom">Noticias</h5>
+            <h5 class="widget-title line-bottom">Latest News</h5>
             <div class="latest-posts">
               <article class="post media-post clearfix pb-0 mb-10">
                 <a href="#" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
                 <div class="post-right">
-                  <h5 class="post-title mt-0 mb-5"><a href="#">Seminario con Leo Vieira</a></h5>
+                  <h5 class="post-title mt-0 mb-5"><a href="#">Sustainable Construction</a></h5>
                   <p class="post-date mb-0 font-12">Mar 08, 2015</p>
                 </div>
               </article>
@@ -279,23 +399,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               }
             </script>
             <!-- Mailchimp Subscription Form Ends Here -->
-           </div>
+          </div>
         </div>
         <div class="col-md-3 col-md-offset-1">
           <div class="widget dark">
-            <h5 class="widget-title mb-10">Llamanos o escribenos por Whatsapp</h5>
+            <h5 class="widget-title mb-10">Call Us Now</h5>
             <div class="text-gray">
-              +34 600 65 13 75<br>
+              +61 3 1234 5678 <br>
+              +12 3 1234 5678
             </div>
           </div>
         </div>
         <div class="col-md-3">
           <div class="widget dark">
-            <h5 class="widget-title mb-10">Conéctate</h5>
+            <h5 class="widget-title mb-10">Connect With Us</h5>
             <ul class="styled-icons icon-dark icon-circled icon-sm">
-              <li><a href="https://www.facebook.com/reinaldoribeirobjj/"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-skype"></i></a></li>
               <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-              <li><a href="https://www.instagram.com/rrteambjj/"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
             </ul>
           </div>
         </div>
@@ -305,13 +429,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="container pt-20 pb-20">
         <div class="row">
           <div class="col-md-6">
-            <p class="font-11 text-black-777 m-0">Copyright &copy;2018 RRTEAM. All Rights Reserved</p>
+            <p class="font-11 text-black-777 m-0">Copyright &copy;2017 ThemeMascot. All Rights Reserved</p>
           </div>
           <div class="col-md-6 text-right flip">
             <div class="widget no-border m-0">
               <ul class="list-inline sm-text-center mt-5 font-12">
                 <li><a href="#">FAQ</a></li>
-                              </ul>
+                <li>|</li>
+                <li><a href="#">Help Desk</a></li>
+                <li>|</li>
+                <li><a href="#">Support</a></li>
+              </ul>
             </div>
           </div>
         </div>
