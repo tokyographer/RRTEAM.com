@@ -21,9 +21,11 @@ $status = "false";
 if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
     if( $_POST['form_email'] != '' AND $_POST['form_message'] != '' ) {
 
-        $name = 'Quick Contact';
+        $name = 'Solicitud Clase de Prueba RRTEAM.com';
         $email = $_POST['form_email'];
+        $phone = $_POST['reservation_phone'];
         $message = $_POST['form_message'];
+
 
         $subject = isset($subject) ? $subject : 'Solicitud Clase de Prueba | RRTEAM.com';
 
