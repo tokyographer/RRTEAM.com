@@ -1,15 +1,1 @@
-<svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" enable-background="new 0 0 48 48">
-    <g fill="#1565C0">
-        <polygon points="43.4,13 35,20 35,6"/>
-        <rect x="4" y="11" width="34" height="4"/>
-    </g>
-    <g fill="#2196F3">
-        <rect x="40" y="23" width="4" height="19"/>
-        <rect x="34" y="23" width="4" height="19"/>
-        <rect x="28" y="23" width="4" height="19"/>
-        <rect x="22" y="23" width="4" height="19"/>
-        <rect x="16" y="23" width="4" height="19"/>
-        <rect x="10" y="23" width="4" height="19"/>
-        <rect x="4" y="23" width="4" height="19"/>
-    </g>
-</svg>
+<svg enable-background="new 0 0 48 48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g fill="#1565c0"><path d="m43.4 13-8.4 7v-14z"/><path d="m4 11h34v4h-34z"/></g><g fill="#2196f3"><path d="m40 23h4v19h-4z"/><path d="m34 23h4v19h-4z"/><path d="m28 23h4v19h-4z"/><path d="m22 23h4v19h-4z"/><path d="m16 23h4v19h-4z"/><path d="m10 23h4v19h-4z"/><path d="m4 23h4v19h-4z"/></g></svg>

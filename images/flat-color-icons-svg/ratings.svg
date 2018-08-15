@@ -1,6 +1,1 @@
-<svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" enable-background="new 0 0 48 48">
-    <polygon fill="#42A5F5" points="36,44 8,44 8,8 28,8 36,16"/>
-    <polygon fill="#90CAF9" points="40,40 12,40 12,4 32,4 40,12"/>
-    <polygon fill="#E1F5FE" points="38.5,13 31,13 31,5.5"/>
-    <polygon fill="#1976D2" points="34,20 27,20 29.4,22.4 27,24.9 23,20.9 16.9,26.9 19.1,29.1 23,25.1 27,29.1 31.6,24.6 34,27"/>
-</svg>
+<svg enable-background="new 0 0 48 48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="m36 44h-28v-36h20l8 8z" fill="#42a5f5"/><path d="m40 40h-28v-36h20l8 8z" fill="#90caf9"/><path d="m38.5 13h-7.5v-7.5z" fill="#e1f5fe"/><path d="m34 20h-7l2.4 2.4-2.4 2.5-4-4-6.1 6 2.2 2.2 3.9-4 4 4 4.6-4.5 2.4 2.4z" fill="#1976d2"/></svg>

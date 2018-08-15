@@ -1,11 +1,1 @@
-<svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" enable-background="new 0 0 48 48">
-    <polygon fill="#E8EAF6" points="42,39 6,39 6,23 24,6 42,23"/>
-    <g fill="#C5CAE9">
-        <polygon points="39,21 34,16 34,9 39,9"/>
-        <rect x="6" y="39" width="36" height="5"/>
-    </g>
-    <polygon fill="#B71C1C" points="24,4.3 4,22.9 6,25.1 24,8.4 42,25.1 44,22.9"/>
-    <rect x="18" y="28" fill="#D84315" width="12" height="16"/>
-    <rect x="21" y="17" fill="#01579B" width="6" height="6"/>
-    <path fill="#FF8A65" d="M27.5,35.5c-0.3,0-0.5,0.2-0.5,0.5v2c0,0.3,0.2,0.5,0.5,0.5S28,38.3,28,38v-2C28,35.7,27.8,35.5,27.5,35.5z"/>
-</svg>
+<svg enable-background="new 0 0 48 48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="m42 39h-36v-16l18-17 18 17z" fill="#e8eaf6"/><g fill="#c5cae9"><path d="m39 21-5-5v-7h5z"/><path d="m6 39h36v5h-36z"/></g><path d="m24 4.3-20 18.6 2 2.2 18-16.7 18 16.7 2-2.2z" fill="#b71c1c"/><path d="m18 28h12v16h-12z" fill="#d84315"/><path d="m21 17h6v6h-6z" fill="#01579b"/><path d="m27.5 35.5c-.3 0-.5.2-.5.5v2c0 .3.2.5.5.5s.5-.2.5-.5v-2c0-.3-.2-.5-.5-.5z" fill="#ff8a65"/></svg>

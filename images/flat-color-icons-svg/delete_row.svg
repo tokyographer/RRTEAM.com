@@ -1,8 +1,1 @@
-<svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" enable-background="new 0 0 48 48">
-    <path fill="#90CAF9" d="M43,30V18c0-2.2-1.8-4-4-4H9c-2.2,0-4,1.8-4,4v12c0,2.2,1.8,4,4,4h30C41.2,34,43,32.2,43,30z M9,18h30v12 L9,30V18z"/>
-    <circle fill="#F44336" cx="38" cy="38" r="10"/>
-    <g fill="#fff">
-        <rect x="36.5" y="32" transform="matrix(-.707 .707 -.707 -.707 91.74 38)" width="3" height="12"/>
-        <rect x="36.5" y="32" transform="matrix(-.707 -.707 .707 -.707 38 91.74)" width="3" height="12"/>
-    </g>
-</svg>
+<svg enable-background="new 0 0 48 48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="m43 30v-12c0-2.2-1.8-4-4-4h-30c-2.2 0-4 1.8-4 4v12c0 2.2 1.8 4 4 4h30c2.2 0 4-1.8 4-4zm-34-12h30v12h-30z" fill="#90caf9"/><circle cx="38" cy="38" fill="#f44336" r="10"/><g fill="#fff"><path d="m36.5 32h3v12h-3z" transform="matrix(-.707 .707 -.707 -.707 91.74 38)"/><path d="m36.5 32h3v12h-3z" transform="matrix(-.707 -.707 .707 -.707 38 91.74)"/></g></svg>

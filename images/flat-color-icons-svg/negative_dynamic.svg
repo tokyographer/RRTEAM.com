@@ -1,11 +1,1 @@
-<svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" enable-background="new 0 0 48 48">
-    <g fill="#00BCD4">
-        <rect x="19" y="22" width="10" height="20"/>
-        <rect x="6" y="8" width="10" height="34"/>
-        <rect x="32" y="30" width="10" height="12"/>
-    </g>
-    <g fill="#3F51B5">
-        <polygon points="42,12 32,22 42,22"/>
-        <rect x="32" y="6.9" transform="matrix(.707 -.707 .707 .707 .059 28.142)" width="4" height="14.1"/>
-    </g>
-</svg>
+<svg enable-background="new 0 0 48 48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g fill="#00bcd4"><path d="m19 22h10v20h-10z"/><path d="m6 8h10v34h-10z"/><path d="m32 30h10v12h-10z"/></g><g fill="#3f51b5"><path d="m42 12-10 10h10z"/><path d="m32 6.9h4v14.1h-4z" transform="matrix(.707 -.707 .707 .707 .059 28.142)"/></g></svg>

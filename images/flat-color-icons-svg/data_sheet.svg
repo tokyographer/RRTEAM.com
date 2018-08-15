@@ -1,5 +1,1 @@
-<svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" enable-background="new 0 0 48 48">
-    <path fill="#90CAF9" d="M39,16v7h-6v-7h-2v7h-6v-7h-2v7h-7v2h7v6h-7v2h7v6h-7v2h25V16H39z M39,25v6h-6v-6H39z M25,25h6v6h-6V25z M25,33h6v6h-6V33z M33,39v-6h6v6H33z"/>
-    <polygon fill="#00BCD4" points="40,8 8,8 8,40 16,40 16,16 40,16"/>
-    <path fill="#0097A7" d="M7,7v34h10V17h24V7H7z M9,23v-6h6v6H9z M15,25v6H9v-6H15z M17,9h6v6h-6V9z M25,9h6v6h-6V9z M15,9v6H9V9H15z M9,39v-6h6v6H9z M39,15h-6V9h6V15z"/>
-</svg>
+<svg enable-background="new 0 0 48 48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="m39 16v7h-6v-7h-2v7h-6v-7h-2v7h-7v2h7v6h-7v2h7v6h-7v2h25v-25zm0 9v6h-6v-6zm-14 0h6v6h-6zm0 8h6v6h-6zm8 6v-6h6v6z" fill="#90caf9"/><path d="m40 8h-32v32h8v-24h24z" fill="#00bcd4"/><path d="m7 7v34h10v-24h24v-10zm2 16v-6h6v6zm6 2v6h-6v-6zm2-16h6v6h-6zm8 0h6v6h-6zm-10 0v6h-6v-6zm-6 30v-6h6v6zm30-24h-6v-6h6z" fill="#0097a7"/></svg>
