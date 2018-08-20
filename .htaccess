@@ -1,14 +1,14 @@
-<IfModule mod_rewrite.c>
-        RewriteEngine On
-        RewriteBase /
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
-        # Removes index.php from ExpressionEngine URLs
-        RewriteCond %{THE_REQUEST} ^GET.*index\.php [NC]
-        RewriteCond %{REQUEST_URI} !/system/.* [NC]
-        RewriteRule (.*?)index\.php/*(.*) /$1$2 [R=301,NE,L]
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
+ErrorDocument 404 /error-404.html
 
-        # Directs all EE web requests through the site index file
-        RewriteCond %{REQUEST_FILENAME} !-f
-        RewriteCond %{REQUEST_FILENAME} !-d
-        RewriteRule ^(.*)$ /index.php/$1 [L]
-</IfModule>
+# Permanent URL redirect
+RedirectMatch 301 /contacto/?$ http://reinaldoribeiroteam.com/academia-bjj-barcelona.html
+RedirectMatch 301 /reinaldo-ribeiro-bjj-barcelona/?$ http://reinaldoribeiroteam.com/academia-bjj-barcelona.html
+RedirectMatch 301 /academias/?$ http://reinaldoribeiroteam.com/academia-bjj-barcelona.html
+RedirectMatch 301 /torneo-interno-rr-team-diciembre-2014/?$ http://reinaldoribeiroteam.com
+RedirectMatch 301 /buenos-tiempos/?$ http://reinaldoribeiroteam.com
