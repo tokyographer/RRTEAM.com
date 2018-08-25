@@ -2,6 +2,11 @@ RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
+# Apache config
+<FilesMatch ".(eot|ttf|otf|woff)">
+ Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
+
 RewriteRule ^index\.html$ / [R=301,L]
 RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
 ErrorDocument 404 /error-404.html
